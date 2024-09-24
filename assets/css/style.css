@@ -452,7 +452,10 @@ main {
   /* fill: #FFA116; LeetCode orange color */
   fill: gray;
 }
-
+.leetcode-logo:hover {
+  /* fill: #FFA116; LeetCode orange color */
+  fill: lightgray;
+}
 
 
 /*-----------------------------------*\
@@ -792,6 +795,12 @@ main {
 
 .timeline-item { position: relative; }
 
+.timeline-inneritem { 
+  list-style-type: disc;
+  position: relative; 
+  margin-left: -50px;
+}
+
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
@@ -801,10 +810,85 @@ main {
 }
 
 .timeline-list span {
-  color: var(--vegas-gold);
+  display: flex;
+  align-items: center;
+  /* color: #FFA500; */
+  color: lightgray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  /* color: var(--vegas-gold); */
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+
+.timeline-list span ul{
+  list-style-type: disc;
+}
+
+.timeline-list span ion-icon {
+  margin-right: 5px;
+  transition: color 0.3s ease;
+}
+
+.experience_link {
+  margin-top: 10px;
+  color: lightgray;
+  font-size: 18px;
+}
+
+.experience_link_list { justify-content: center; }
+
+.experience_link_list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.exlogo-link {
+  display: flex;
+  align-items: center;
+  color:  lightgrey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.exlogo-link ion-icon {
+  margin-right: 5px;
+  transition: color 0.3s ease;
+}
+
+.exlogo-link:hover,
+  .university-link:hover ion-icon {
+  color: #FFA500; /* This sets the hover color to orange. You can change it to any color you prefer */
+}
+
+.timeline-list university {
+  color: #FFA500;
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+}
+
+.university-link {
+  display: flex;
+  align-items: center;
+  color: #FFA500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.university-link ion-icon {
+  margin-right: 5px;
+  transition: color 0.3s ease;
+}
+
+.university-link:hover,
+  .university-link:hover ion-icon {
+  color: white; /* This sets the hover color to orange. You can change it to any color you prefer */
+} 
 
 .timeline-item:not(:last-child)::before {
   content: "";
@@ -834,11 +918,38 @@ main {
   line-height: 1.6;
 }
 
+.pub {
+  color: lightgrey;
+}
+
 
 /**
  * skills 
  */
+ .inline-square-bullets {
+  color: lightgray;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
 
+.inline-square-bullets li {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.inline-square-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: lightgray;
+}
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
