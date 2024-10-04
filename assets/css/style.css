@@ -1525,7 +1525,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 250px; }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1613,7 +1613,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { width: 100px; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1777,7 +1777,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img { width: 90px; }
 
 
 
