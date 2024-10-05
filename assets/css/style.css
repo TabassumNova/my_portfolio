@@ -907,6 +907,7 @@ main {
 @media screen and (max-width: 768px) {
   .university-link ion-icon {
     font-size: 18px; /* Adjust this value for mobile view */
+    flex-shrink: 0;
   }
 }
 
