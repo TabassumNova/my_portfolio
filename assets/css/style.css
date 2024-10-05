@@ -1080,7 +1080,7 @@ main {
 .project-img {
   position: relative;
   width: 90%;
-  height: 100px;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 70px;
@@ -1092,8 +1092,8 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   background: transparent;
   z-index: 1;
   transition: var(--transition-1);
@@ -1102,7 +1102,7 @@ main {
 .announce-img {
   position: relative;
   width: 50%;
-  height: 300px;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 70px;
@@ -1124,7 +1124,7 @@ main {
 .project-gif {
   position: relative;
   width: 60%;
-  height: 400px;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
