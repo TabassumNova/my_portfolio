@@ -911,7 +911,7 @@ main {
 }
 
 .university-link span {
-  flex: 1;
+  flex: 3;
 }
 
 .timeline-item:not(:last-child)::before {
