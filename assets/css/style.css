@@ -898,6 +898,18 @@ main {
   color: white; /* This sets the hover color to orange. You can change it to any color you prefer */
 } 
 
+.university-link ion-icon {
+  font-size: 24px; /* Adjust this value for desktop view */
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .university-link ion-icon {
+    font-size: 18px; /* Adjust this value for mobile view */
+  }
+}
+
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
